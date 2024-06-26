@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 #Analisis de Outliers (Kelly)
-#  
+ 
 def outliers(df,col):
 
     # Agrega los datos de manera anual para tener lluvia acumulada
