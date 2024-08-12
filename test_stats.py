@@ -88,7 +88,8 @@ def mann_kendall(df,
 
     #Se almacenan los resultados mas relevantes
     # En un diccionario de resultados
-    dic_resultados ={
+    
+    dic_resultados={
         'tendencia': results[0],
         'h':results[1],
         'p_valor': results[2]
@@ -126,4 +127,6 @@ def pettit(df,var):
     }
     return dic_resultados  
 
+
 # Agregar calidad de datos faltantes 
+print('something')
